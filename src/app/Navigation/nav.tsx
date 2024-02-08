@@ -19,7 +19,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <div className="nav bg-blue-800 h-[10vh] w-full p-[15px] fixed">
+    <div className="nav bg-blue-800 h-[10vh] w-full p-[15px] ">
       <div className="flex justify-between items-center h-full">
         <div className="text-white text-2xl font-bold">Logo</div>
         <div className="relative">
