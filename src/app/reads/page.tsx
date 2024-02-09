@@ -54,7 +54,7 @@ const Reads = () => {
 
 
   return (
-    <div className="reads flex flex-col gap-[30px] p-5">
+    <div className="reads flex flex-col gap-[30px] p-5 translate-y-[9rem] md:translate-y-[1rem]">
       <h1 className="text-3xl font-semibold">Interesting Reads</h1>
       <div className="overflow-scroll relative">
         <div className="cards flex gap-[100px] relative w-[150vw] ref={cardsRef} p-6">

@@ -64,7 +64,7 @@ Step by step guide for free property listing</h1>
                 </br>
                 <p>So, a builder, an owner, or an agent does need not spend hours selling the house online or trying a hand at the online rental. Listing property is a process of a few minutes and you are done. Deal Acres has traffic and thousands of prospective homebuyers and tenants who visit the website every day. Sell your property quickly with Deal Acres.</p>
             </div>
-            <button className="absolute top-[150vh] bg-blue-700 text-white pl-10 pr-10 pt-3 pb-3 rounded-[12px] md:top-[65vh]">
+            <button className="absolute top-[180vh] bg-blue-700 text-white pl-10 pr-10 pt-3 pb-3 rounded-[12px] md:top-[65vh]">
                 List Your Property For FREE NOW!
             </button>
         </div>
