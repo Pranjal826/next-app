@@ -51,18 +51,20 @@ Step by step guide for free property listing</h1>
         </div>
         <div className="inner-bg h-[160vh]	 w-full  md:h-[90vh]">
         <div className="img bg-[url('https://plus.unsplash.com/premium_photo-1670274229211-a46356f9d196?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] w-full  bg-cover bg-no-repeat relative flex items-center justify-center ">
-            <div className="para w-[80%] h-auto bg-slate-50 p-[20px] border-t-[1px] border-b-[10px] border-l-[5px] border-r-[5px] border-fuchsia-200 rounded translate-y-[6rem]">
+            <div className="para w-[80%] h-auto bg-slate-50 p-[20px] border-t-[1px] border-b-[10px] border-l-[5px] border-r-[5px] border-blue-200 rounded translate-y-[6rem]">
                 <h1 className="text-[40px] text-center">Why Choose Deal Acres?</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, perspiciatis alias. Odio, officiis magni odit molestias nobis delectus, laborum aspernatur, minima facilis totam magnam. Quisquam dicta earum veniam asperiores consectetur fugit officiis! Vel alias assumenda praesentium commodi harum. Expedita magni consequuntur fuga odit fugit in tempore, vel error ipsa at modi dolorum illo distinctio, hic corporis, ratione aliquam velit id! Natus deleniti cupiditate voluptate quibusdam necessitatibus doloremque sequi fugit eligendi?</p>
+                <p>Deal Acres is the only place where you can sell your property easily and quickly. If you are looking for one of the top free property listing sites in India, Deal Acres came first. When it comes to the free property listing it becomes difficult to pick one that will actually help you rent or sell your residential or commercial property, then Deal Acres is one of the friendliest and fastest-growing real estate website in India today, with some of the simple and easy facilities for uploading your property.</p>
                 <br>
                 </br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit perferendis cupiditate voluptatibus expedita assumenda ad harum modi? Eum deleniti distinctio laborum cumque consequuntur ab quia repellendus nobis dolor repellat, porro, asperiores odit? Assumenda debitis pariatur amet consequuntur enim quae laborum.</p>
+                <p>Property listing is the best way to reach out to potential customers who need to buy a home or home for rent. Homebuyers or tenants can shortlist the best among the pool of the real estate listing.
+
+</p>
                 <br>
                 </br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quia repudiandae reiciendis minus illum obcaecati sequi perferendis praesentium blanditiis, ducimus quas qui error earum, ad asperiores, quo provident officia in. Animi, deserunt? Laboriosam et blanditiis repellat, modi dolores iste ipsa necessitatibus, porro voluptatum illum facilis ad sint pariatur sunt amet deleniti quisquam saepe tenetur similique. Corrupti dolore quia quod quisquam!</p>
+                <p>So, a builder, an owner, or an agent does need not spend hours selling the house online or trying a hand at the online rental. Listing property is a process of a few minutes and you are done. Deal Acres has traffic and thousands of prospective homebuyers and tenants who visit the website every day. Sell your property quickly with Deal Acres.</p>
             </div>
-            <button className="absolute top-[150vh] bg-blue-800 text-white pl-10 pr-10 pt-3 pb-3 rounded-[12px] md:top-[65vh]">
-                List Your Property For FREE NOW
+            <button className="absolute top-[150vh] bg-blue-700 text-white pl-10 pr-10 pt-3 pb-3 rounded-[12px] md:top-[65vh]">
+                List Your Property For FREE NOW!
             </button>
         </div>
         </div>

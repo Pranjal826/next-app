@@ -27,7 +27,7 @@ const cardData = [
   {
     id: 4,
     imageUrl: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D",
-    title: "Top 10 Best Schools in Gurgaon for Admission &...",
+    title: "DHBVN Gurgaon Electricity Bill Online Payment",
     description: "If you are looking for admission for your child in Gurgaon schools, then here are top 10 best schools",
     date: "07 Aug 2023",
   },
@@ -41,7 +41,7 @@ const cardData = [
   {
     id: 6,
     imageUrl: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D",
-    title: "Top 10 Best Schools in Gurgaon for Admission &...",
+    title: "7 best mall inn Gurgaon that are must to visit",
     description: "If you are looking for admission for your child in Gurgaon schools, then here are top 10 best schools",
     date: "07 Aug 2023",
   },
