@@ -16,3 +16,6 @@ body ,html{
 .reads ::-webkit-scrollbar{
   display: none;
 }
+a:active{
+  color: blueviolet;
+}

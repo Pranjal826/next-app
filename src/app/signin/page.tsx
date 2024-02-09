@@ -10,7 +10,7 @@ const Signin = () => {
 
   const handleContinueClick = () => {
     // Redirect to /profile route
-    router.push('/profile');
+    router.push('/profile/basic');
   };
   return (
     <>
