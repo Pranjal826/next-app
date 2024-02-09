@@ -178,7 +178,7 @@ const Basic = () => {
                 <div className="input flex gap-[10px] items-center">
                     <input type="checkbox" className='w-[20px] h-[20px]' />
                     <p className='text-xl'>
-                    I agree to this website "Deal Acres" storing my submitted information; see more details below.</p>
+                    I agree to this website Deal Acres storing my submitted information; see more details below.</p>
                 </div>
                 <p className='bg-stone-200 p-3 rounded-[10px]'>The data based on a search query on Deal Acres has been made available for information/advertisement purposes. No warranty is implied for its accuracy. Nothing contained herein will be deemed to constitute any sort of legal advice, solicitation, marketing, offer of sale, an invitation to offer, or an invitation to get by the developer/builder or any other entity. You are advised to visit the relevant RERA website. And get more information about the builder and property directly. Before deciding on the project content displayed on dealacres.com. If you have any queries contact Deal Acres at contact@dealacres.com.</p>
                 </div>
