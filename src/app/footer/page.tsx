@@ -26,7 +26,8 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-600 mt-4 pt-2 text-center">
-        <p>&copy; 2024 Deal Acres. All rights reserved.</p>
+      <p>{String.fromCharCode(169)} 2024 Deal Acres. All rights reserved.</p>
+
       </div>
     </footer>
   );
