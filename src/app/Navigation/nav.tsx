@@ -1,6 +1,7 @@
+'use client'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { useState, useEffect } from 'react';
+import { useState,useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
 import Link from 'next/link';
@@ -16,7 +17,7 @@ const Nav = () => {
   // Use useEffect to log the router on mount
   useEffect(() => {
     console.log(router);
-  }, []);
+  }, [router]);
 
   return (
     <div className="nav bg-blue-800 h-[10vh] w-full p-[15px] ">

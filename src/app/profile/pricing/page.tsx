@@ -102,8 +102,8 @@ const Basic = () => {
                                 <div className=" flex flex-col gap-[20px] ">
                                     <h1 className='text-3xl font-semibold'>Price Details</h1>
                                     <div className="inputs flex flex-col gap-[10px]">
-                                    <input type="text" placeholder={` &#8377; Expected Price`} className='p-4 border-4 rounded-md border-indigo-200' />
-<input type="text" placeholder={` &#8377; Price per Sq. Yd`} className='p-4 border-4 rounded-md border-indigo-200 w-[50%]' />
+                                    <input type="text" placeholder=" ₹ Expected Price" className="p-4 border-4 rounded-md border-indigo-200" />
+<input type="text" placeholder=" ₹ Price per Sq. Yd" className="p-4 border-4 rounded-md border-indigo-200 w-[50%]" />
 
                                     </div>
                                     <div className="checkbox pt-3 flex flex-col gap-[16px]">
