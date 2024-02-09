@@ -3,7 +3,7 @@ import React from 'react';
 import Nav from '../Navigation/nav';
 import '../utils/fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import Image from 'next/image';
 const forgetpassword = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const forgetpassword = () => {
         {/* Left Section for Large Screens */}
         <div className="hidden md:flex md:flex-col md:justify-center md:items-center w-full md:w-1/3 bg-blue-100	 rounded-lg items-center justify-evenly ml-[60px] p-10">
           <h1 className='text-xl text-center'>Your Phone number gives access to your account </h1>
-          <img src="otp.png" className='w-2/3 h-auto' alt="" />
+          <Image width={500} height={500} src="/otp.png" className='w-2/3 h-auto' alt="" />
           <div className="help text-center">
             <h1 className='font-semibold'>Need Help?</h1>
             <p className='font-medium'>You can email us</p>

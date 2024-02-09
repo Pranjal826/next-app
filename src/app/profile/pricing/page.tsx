@@ -1,10 +1,10 @@
 // pages/profile.js
 'use client'
 import React from 'react';
-import Nav from '../../Navigation/nav';
 import '../../utils/fontawesome';
 import Navigate from '../page'; // Import a separate CSS file for styling
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 const Basic = () => {
     const router = useRouter();
@@ -85,7 +85,7 @@ const Basic = () => {
                                     Add property proximity to transit Shopping, Market Areas, and more...
                                 </li>
                             </ul>
-                            <img src="../house.png" className='w-2/3 h-auto' alt="" />
+                            <Image width={500} height={500} src="/house.png" className='w-2/3 h-auto' alt="" />
                             <div className="help text-center">
                                 <h1 className='font-semibold'>Need Help?</h1>
                                 <p className='font-medium'>You can email us</p>
@@ -157,7 +157,7 @@ const Basic = () => {
                                     </div>
                                     <h1 className='text-3xl font-semibold'>Upload Floor Plan</h1>
                                     <div className="num flex flex-col items-center gap-[10px] bg-blue-50	rounded-[10px]	pt-4 pb-4">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmofXDYIeXYic96_7o1SNyN85KgcM49v1K5tF-GOvVthm8gHMPeWxp4GXy4gP7fTuV_h4&usqp=CAU" className='w-[100px]' alt="" />
+                                        <Image width={500} height={500} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmofXDYIeXYic96_7o1SNyN85KgcM49v1K5tF-GOvVthm8gHMPeWxp4GXy4gP7fTuV_h4&usqp=CAU" className='w-[100px]' alt="" />
                                         <p className='font-bold'>Drag & Drop Image Image Here</p>
                                         <p >Uploaded photo is maximum of 2mb</p>
                                         <button className='bg-blue-700 rounded-[10px] text-white  p-2 w-[200px]'>Upload File</button>

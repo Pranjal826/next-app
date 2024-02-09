@@ -1,6 +1,7 @@
 // pages/index.js
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 const HomePage = () => {
   return (
     <div className="flex md:flex-col	 items-center justify-center md:h-screen">
@@ -55,7 +56,7 @@ const HomePage = () => {
             </div>
 
           </div>
-          <img src="pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496223-removebg-preview.png"/>
+          <Image alt='' src="/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496223-removebg-preview.png" width='300' height='300'/>
         </div>
       </div>
     </div>

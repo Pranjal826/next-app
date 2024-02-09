@@ -1,6 +1,7 @@
 import { faShareNodes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import Image from 'next/image';
 
 const cardData = [
   {
@@ -59,7 +60,7 @@ const Reads = () => {
         <div className="cards flex gap-[100px] relative w-[150vw] ref={cardsRef} p-6">
           {cardData.map((card) => (
             <div key={card.id} className="card border-4 rounded-md flex flex-col gap-[10px] ">
-              <img src={card.imageUrl} className="rounded-md  h-[200px]" alt="" />
+              <Image src={card.imageUrl} className="rounded-md  h-[200px]" width={500} height={500} alt="" />
               <div className="cont flex flex-col gap-[10px] p-3">
                 <h1 className="text-xl ">{card.title}</h1>
                 <p className="text-stone-400">{card.description}</p>

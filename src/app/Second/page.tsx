@@ -1,5 +1,6 @@
+"use client"
 import React from "react";
-
+import Image from "next/image";
 const Second = () => {
   return (
     <>
@@ -9,7 +10,7 @@ Step by step guide for free property listing</h1>
         <div className="round-cards flex flex-col sm:flex-row justify-evenly items-center h-full w-full">
           <div className="round1 flex flex-col items-center gap-[10px]">
             <div className="rounded-full bg-sky-100 h-[100px] w-[100px] flex items-center justify-center">
-              <img
+              <Image width={500} height={500}
                 src="https://cdn.iconscout.com/icon/free/png-512/free-file-1510-434045.png?f=webp&w=512"
                 alt=""
                 className="h-[50px] w-[50px]"
@@ -23,7 +24,7 @@ Step by step guide for free property listing</h1>
           </div>
           <div className="round2 flex flex-col items-center gap-[10px]">
             <div className="rounded-full bg-sky-100 h-[100px] w-[100px] flex items-center justify-center">
-              <img
+              <Image width={500} height={500}
                 src="https://cdn.iconscout.com/icon/free/png-512/free-gallery-44-267592.png?f=webp&w=512"
                 alt=""
                 className="h-[50px] w-[50px]"
@@ -37,9 +38,9 @@ Step by step guide for free property listing</h1>
           </div>
           <div className="round3 flex flex-col items-center text-left gap-[10px]">
             <div className="rounded-full bg-sky-100 h-[100px] w-[100px] flex items-center justify-center">
-              <img
+              <Image alt=''
                 src="https://cdn.iconscout.com/icon/free/png-512/free-home-1771009-1505138.png?f=webp&w=512"
-                alt=""
+                width='200' height='200'
                 className="h-[50px] w-[50px]"
               />
             </div>

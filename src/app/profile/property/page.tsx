@@ -1,9 +1,9 @@
 // pages/profile.js
 'use client'
 import React from 'react';
-import Nav from '../../Navigation/nav';
 import '../../utils/fontawesome';
 import Navigate from '../page'; // Import a separate CSS file for styling
+import Image from 'next/image';
 
 const Basic = () => {
     return (
@@ -15,7 +15,7 @@ const Basic = () => {
                     <div className="hidden md:flex md:flex-col md:justify-evenly md:items-center w-full md:w-[40%] h-[85%] items-center justify-evenly mr-[60px] p-10 gap-[30px]">
                         <div className=" flex flex-col bg-blue-100 rounded-lg  md:flex md:flex-col md:justify-evenly md:items-center w-full md:w-[100%] h-[100%] items-center justify-evenly p-10">
                         <h1 className='text-xl text-center'>Describe your property in brief so the buyer or renter can easily get to know how your property is what makes your property different from others.   </h1>
-                        <img src="../salehouse.png" className='w-2/3 h-auto' alt="" />
+                        <Image width={500} height={500} src="/salehouse.png" className='w-2/3 h-auto' alt="" />
                         <div className="help text-center">
                             <h1 className='font-semibold'>Need Help?</h1>
                             <p className='font-medium'>You can email us</p>
@@ -24,7 +24,7 @@ const Basic = () => {
                         </div>
                         
                         <div className="flex flex-col items-center justify-center bg-sky-100 md:w-[100%] p-5 rounded-[10px]" >
-                            <img src="../smiley.png" className='h-[100px] w-[100px]' alt="" />
+                            <Image width={500} height={500} src="/smiley.png" className='h-[100px] w-[100px]' alt="" />
                             <h1 className='text-xl'>Your Are Almost There</h1>
                         </div>
                     </div>

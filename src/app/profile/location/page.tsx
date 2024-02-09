@@ -1,9 +1,9 @@
 // pages/profile.js
 'use client'
 import React from 'react';
-import Nav from '../../Navigation/nav';
 import '../../utils/fontawesome';
 import Navigate from '../page'; // Import a separate CSS file for styling
+import Image from 'next/image';
 
 const Basic = () => {
   return (
@@ -14,7 +14,7 @@ const Basic = () => {
           {/* Left Section for Large Screens */}
           <div className="hidden md:flex md:flex-col md:justify-evenly md:items-center w-full md:w-[30%] h-[85%] bg-blue-100 rounded-lg items-center justify-evenly mr-[60px] p-10">
             <h1 className='text-xl text-center'>An Accurate Location is the most essential as it helps you to connect the perfect buyer or tenant </h1>
-            <img src="../loc.png" className='w-2/3 h-auto' alt="" />
+            <Image width={500} height={500} src="/loc.png" className='w-2/3 h-auto' alt="" />
             <div className="help text-center">
               <h1 className='font-semibold'>Need Help?</h1>
               <p className='font-medium'>You can email us</p>

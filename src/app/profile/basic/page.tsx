@@ -2,7 +2,7 @@
 'use client'
 import React from 'react';
 import { useRouter } from 'next/navigation';
-
+import Image from 'next/image';
 import '../../utils/fontawesome';
 import Nav from '../../Navigation/nav';
 const Signin = () => {
@@ -19,7 +19,7 @@ const Signin = () => {
         {/* Left Section for Large Screens */}
         <div className="hidden md:flex md:flex-col md:justify-evenly md:items-center w-full md:w-[30%] h-[85%] bg-blue-100	 rounded-lg items-center justify-evenly mr-[60px] p-10">
           <h1 className='text-xl text-center'>This information creates a transparency and build trust with buyers/tenants  </h1>
-          <img src="../salehouse.png" className='w-2/3 h-auto' alt="" />
+          <Image width={500} height={500} src="/salehouse.png" className='w-2/3 h-auto' alt="" />
           <div className="help text-center">
             <h1 className='font-semibold'>Need Help?</h1>
             <p className='font-medium'>You can email us</p>
