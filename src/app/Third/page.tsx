@@ -55,7 +55,7 @@ const Third=()=>{
    
         return (
             <>
-              <div className="translate-y-[10rem] md:translate-y-[0rem] flex flex-col p-5 gap-[17px]">
+              <div className="translate-y-[12rem] md:translate-y-[0rem] flex flex-col p-5 gap-[17px]">
                 <h1 className="text-6xl tracking-wider	">
                   Everything you need to know about Deal Acres<br />
                   Free Property Listing.....
