@@ -96,7 +96,7 @@ const Basic = () => {
                     </div>
 
                     {/* Right Section */}
-                    <div className="w-full md:w-[70vw] flex  justify-center h-[210vh] ">
+                    <div className="w-full md:w-[70vw] flex  justify-center h-max ">
                         <div className="p-1 w-[80%] h-full flex flex-col justify-around border-[6px] rounded-[22px] border-blue-200  md:w-[60%] border-6 border-blue-200 rounded-lg space-y-6 md:p-3">
                             <div className="num flex flex-col  gap-[10px]">
                                 <div className=" flex flex-col gap-[20px] ">

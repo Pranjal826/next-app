@@ -7,8 +7,11 @@ body ,html{
   color: rgb(var(--foreground-rgb));
     width: 100%;
     height: max-content;
+    
 }
-
+h1{
+  font-family: sans-serif;
+}
 .que1.active {
   font-weight: bold; /* Change font properties as needed */
   transition: all 0.3s ease; /* Add transition effect */

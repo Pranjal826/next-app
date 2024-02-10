@@ -10,7 +10,7 @@ const Basic = () => {
     <>
       <div className="profile-checkout flex flex-col items-center gap-[20px]">
         <Navigate />
-        <div className="flex flex-col md:flex-row md:space-x-6 md:w-[80%] h-screen p-5 md:p-10">
+        <div className="flex flex-col md:flex-row md:space-x-6 md:w-[80%] h-[110vh] p-5 md:p-10">
           {/* Left Section for Large Screens */}
           <div className="hidden md:flex md:flex-col md:justify-evenly md:items-center w-full md:w-[30%] h-[85%] bg-blue-100 rounded-lg items-center justify-evenly mr-[60px] p-10">
             <h1 className='text-xl text-center'>An Accurate Location is the most essential as it helps you to connect the perfect buyer or tenant </h1>

@@ -15,7 +15,7 @@ const Signin = () => {
   return (
     <>
       <Nav />
-      <div className="flex items-center flex-col md:flex-row-reverse md:space-x-6 md:w-[80%] h-screen p-5 md:p-10">
+      <div className="flex items-center flex-col md:flex-row-reverse md:space-x-6 md:w-[80%] h-[110vh] p-5 md:p-10">
         {/* Left Section for Large Screens */}
         <div className="hidden md:flex md:flex-col md:justify-evenly md:items-center w-full md:w-[30%] h-[85%] bg-blue-100	 rounded-lg items-center justify-evenly mr-[60px] p-10">
           <h1 className='text-xl text-center'>This information creates a transparency and build trust with buyers/tenants  </h1>

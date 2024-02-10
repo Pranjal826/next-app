@@ -22,7 +22,7 @@ const Property = () => {
           </div>
 
           {/* Right Section */}
-          <div className="w-full md:w-[70%] flex items-center justify-center h-[70%] ">
+          <div className="w-full md:w-[70%] flex items-center justify-center h-max ">
             <div className="w-full h-full flex flex-col justify-around border-[6px] rounded-[30px] border-blue-200 p-6 md:w-1/2 border-6 border-blue-200 rounded-lg p-6 space-y-6">
               <h1 className='text-xl font-semibold '>Add images</h1>
 
