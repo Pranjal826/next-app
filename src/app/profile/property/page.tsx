@@ -10,7 +10,7 @@ const Basic = () => {
         <>
             <div className="profile-checkout flex flex-col items-center gap-[20px] h-[200vh]">
                 <Navigate />
-                <div className="flex flex-col md:flex-row-reverse md:space-x-6 md:w-[80%] h-[150vh] p-5 md:p-10">
+                <div className="flex flex-col md:flex-row-reverse md:space-x-6 md:w-[80%] h-[150vh]  md:p-10">
                     {/* Left Section for Large Screens */}
                     <div className="hidden md:flex md:flex-col md:justify-evenly md:items-center w-full md:w-[40%] h-[85%] items-center justify-evenly mr-[60px] p-10 gap-[30px]">
                         <div className=" flex flex-col bg-blue-100 rounded-lg  md:flex md:flex-col md:justify-evenly md:items-center w-full md:w-[100%] h-[100%] items-center justify-evenly p-10">
@@ -30,8 +30,8 @@ const Basic = () => {
                     </div>
 
                     {/* Right Section */}
-                    <div className="w-[90%] md:w-[70%] flex items-center justify-center h-max ">
-                        <div className="w-full h-full flex flex-col justify-around border-[6px] rounded-[22px] border-blue-200 p-6 md:w-1/2 border-6 border-blue-200 rounded-lg p-6 space-y-6">
+                    <div className="w-[100%] md:w-[70%] flex items-center justify-center h-max ">
+                        <div className="w-full h-full flex flex-col justify-around border-[6px] rounded-[22px] border-blue-200 p-6 md:w-1/2 border-6 border-blue-200 rounded-lg  space-y-6">
                             <h1 className='text-xl font-semibold text-center'>Now let us tell about your property</h1>
                             <h1 className='text-xl font-semibold text-center'>Describe your property</h1>
                             <p>Write several things which can describe your property appropriately</p>

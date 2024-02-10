@@ -96,8 +96,8 @@ const Basic = () => {
                     </div>
 
                     {/* Right Section */}
-                    <div className="w-full md:w-[70vw] flex  justify-center h-max ">
-                        <div className="p-1 w-[80%] h-full flex flex-col justify-around border-[6px] rounded-[22px] border-blue-200  md:w-[60%] border-6 border-blue-200 rounded-lg space-y-6 md:p-3">
+                    <div className="w-full md:w-[80vw] flex  justify-center h-max ">
+                        <div className="p-1 w-[100%] h-full flex flex-col justify-around border-[6px] rounded-[22px] border-blue-200  md:w-[60%] border-6 border-blue-200 rounded-lg space-y-6 md:p-3">
                             <div className="num flex flex-col  gap-[10px]">
                                 <div className=" flex flex-col gap-[20px] ">
                                     <h1 className='text-3xl font-semibold'>Price Details</h1>
@@ -173,7 +173,7 @@ const Basic = () => {
                     </div>
                     
                 </div>
-                <div className="flex flex-col w-[60%] justify-center gap-[10px] text-left">
+                <div className="flex flex-col w-[80%] md:w-[70%] justify-center gap-[10px] text-left">
                 <h1 className='text-3xl font-semibold'>GDPR Agreement *</h1>
                 <div className="input flex gap-[10px] items-center">
                     <input type="checkbox" className='w-[20px] h-[20px]' />
